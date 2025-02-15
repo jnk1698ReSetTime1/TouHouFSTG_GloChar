@@ -1,64 +1,37 @@
-<header>
+前言
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+* * *
 
-# Introduction to GitHub
+你好！欢迎来到东方对战型STG自定义人物教程主页，我是jnk。
 
-_Get started using GitHub in less than an hour._
+本篇是用于记录一些弹幕实现与各种技巧的文章们，希望能用更简单的方式达成复杂的效果，辅助新的自定义人物作者入门。
 
-</header>
+感谢为玩家们制作了东方对战型STG的大崩砖，制作了大量人物的吃瓜，绘制贴图的各位画师，制作音乐的乐师，各位坚持你游的老玩家与新了解你游的新萌们的存在，为我带来了许多回忆。
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+——jnk于2025年2月15日教学规划
 
-## Finish
+* * *
 
-_Congratulations, you've completed this course and joined the world of developers!_
+本教程将会分为**五个部分**：
 
-<img src=https://octodex.github.com/images/collabocats.jpg alt=celebrate width=300 align=right>
+第一部分将会通过具体的例子来对Mod人物制作过程有一个感性的认识，同时带领没有Mod制作经历的新人熟悉VS的操作。会有一些课后习题练手，代码也基本来自于崩砖的人物范例。
 
-Here's a recap of your accomplishments:
+第二部分将会学习一些数学。如果你对自己的数学没有信心，不要害怕，在这个阶段写Mod不需要多么高深的知识，同时我会尽我所能把这些知识解释的更加通俗易懂，我敢保证，它不会难过平常做的卷子。同时还会有课后习题，如果不会可以与群员讨论。但是你需要知道，对于制作游戏，如果你不是画师，乐师，那么数学是非常重要的，所以我强烈建议补好数学。
 
-- You learned about GitHub, repositories, branches, commits, and pull requests.
-- You created a branch, a commit, and a pull request.
-- You merged a pull request.
-- You made your first contribution! :tada:
+第三部分将会学习你游的一些机制，通过实际案例来学习，包括特殊弹幕，时停，回弹，图层重载，联机同步参数等等。同时还会对原版代码以及Mod人物代码进行解读，对于有一定基础的Mod制作者，也许可以通过这些途径学到更多自己想要的知识。
 
-### What's next?
+第四部分我将会讲一些常见弹幕特效与技能的实现，并且讲解sharpdx相关的高级操作，比如应用Effect。这些在实际Mod制作中用的比较少但是需要的时候却是一张王牌。
 
-If you'd like to make a profile README, use the quickstart instructions below or follow the instructions in the [Managing your profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) article.
+第五部分就比较自由，可以由你们来决定，我和其他制作者会分享一些对这个问题的解决方案。通常是一些难度比较大的内容。
 
-1. Make a new public repository with a name that matches your GitHub username.
-2. Create a file named `README.md` in its root. The "root" means not inside any folder in your repository.
-3. Edit the contents of the `README.md` file.
-4. If you created a new branch for your file, open and merge a pull request on your branch.
-5. Lastly, we'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github).
+要注意的是这里的源码不是真正的源码而是反编译代码，里面的代码有借鉴意义，但是如果要抄，那必然会使代码变得极为糟糕。我还是推荐大家把这个代码要实现的内容理解了以后自己把这部分逻辑敲出来，而不是一味的抄代码，这样对代码和思维水平的提升有限。
 
-Check out these resources to learn more or get involved:
+感谢在看的你们对这个网页的支持，希望这次的改版不会让你们失望。**如果有人希望参与编写这个教程、搬运人物范例教程或者对教程章节有任何疑问和建议，可以私聊我。**
 
-- Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+作者们：@jnk1698
 
-<footer>
+东方对战型STG
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+**主要QQ群(3群): 828879011**
 
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+**制作交流QQ群: 897786304**
