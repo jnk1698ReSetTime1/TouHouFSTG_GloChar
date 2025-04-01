@@ -1,9 +1,0 @@
-name: 我的文档
-description: 我的文档网站
-url: https://jnk1698ReSetTime1.github.io/TouHouFSTG_GloChar
-baseurl: /TouHouFSTG_GloChar
-markdown: kramdown
-highlighter: rouge
-plugins:
-  - jekyll-feed
-  - jekyll-data
