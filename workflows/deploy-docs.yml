@@ -24,9 +24,14 @@ jobs:
           find . -name "*.md" | while read file; do
             # 提取文件名（不带扩展名）
             filename=$(basename "$file" .md)
-            # 添加到 navigation.yml
-            echo "- title: $filename" >> _data/navigation.yml
-            echo "  url: /$filename.html" >> _data/navigation.yml
+            # 提取文件路径（不带文件名）
+            filepath=$(dirname "$file")
+            # 跳过 .github 目录
+            if [[ "$filepath" != *".github"* ]]; then
+              # 添加到 navigation.yml
+              echo "- title: $filename" >> _data/navigation.yml
+              echo "  url: $filepath/$filename.html" >> _data/navigation.yml
+            fi
           done
       - name: Commit and Push
         uses: ad-m/github-push-file@master
