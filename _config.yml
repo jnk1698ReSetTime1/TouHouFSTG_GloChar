@@ -1,0 +1,9 @@
+name: 我的文档
+description: 我的文档网站
+url: https://yourusername.github.io/your-repo-name
+baseurl: /your-repo-name
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-data
